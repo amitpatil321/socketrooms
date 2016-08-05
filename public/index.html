@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Socket rooms demo</title>
+		<style type="text/css">
+		.msglist{
+			height: 300px;
+			width:300px;
+			border: 1px solid #888;
+		}
+		input[type='text']{
+			border: 1px solid #888;
+			height:25px;
+		}
+		</style>
+	</head>
+</html>
+<body>
+	<table width="30%" border="0">
+		<tr>
+			<td>
+				<div class="msglist"></div>
+			</td>
+		</tr>
+		<tr>	
+			<td>
+				<form id="frmmsg">
+					<input type="text" name="msg" id="msg"><input type="submit" class="send" value="Send"><br>
+					To   : <input type="text" id="to" size="10" value="">	
+					From : <input type="text" id="uname" size="10">
+				</form>
+			</td>
+		</tr>
+	</table>			
+</body>
+<script src="./socket.io/socket.io.js"></script>
+<script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>

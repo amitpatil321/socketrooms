@@ -1,0 +1,21 @@
+{
+  "name": "socketrooms",
+  "version": "1.0.0",
+  "description": "Socket rooms demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "gtalk",
+    "hangout",
+    "nodejs",
+    "socket"
+  ],
+  "author": "Amit Patil (amit@amitpatil.me)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
